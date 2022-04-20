@@ -1,0 +1,25 @@
+{
+  "name": "preact-mpa-webcomponents",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'yarn dev:webpack' 'yarn dev:static'",
+    "dev:webpack": "cross-env NODE_ENV=development webpack -w",
+    "dev:static": "npx reload -b -d static"
+  },
+  "devDependencies": {
+    "@types/preact-custom-element": "^4.0.1",
+    "@typescript-eslint/parser": "^5.20.0",
+    "concurrently": "^7.1.0",
+    "cross-env": "^7.0.3",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "preact": "^10.7.1",
+    "preact-custom-element": "^4.2.1"
+  }
+}
