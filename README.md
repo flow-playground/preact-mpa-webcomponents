@@ -6,5 +6,5 @@ Testing to integrate with shopify liquid
 
 ```sh
 yarn
-yarn dev:webpack
+yarn dev
 ```
